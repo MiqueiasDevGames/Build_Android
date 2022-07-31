@@ -1,4 +1,4 @@
-# Build_Android
+# Build_Android - Building by compiling an android project without android studio
 
 Install Android easily on a 64bit system, but if your system is 32bit follow this tutorial from my other project:
 [tutorial](https://github.com/MiqueiasDevGames/export-godot-to-android-without-gradle-32bits-and-64bits)
