@@ -4,6 +4,8 @@ Install Android easily on a 64bit system, but if your system is 32bit follow thi
 [tutorial](https://github.com/MiqueiasDevGames/export-godot-to-android-without-gradle-32bits-and-64bits)
 
 
+##Android default design:
+
 Now you need this project in a folder like: Projects-Android/
 and inside this folder you also put other folders of your projects, like this: Projects-Android/helloworld/build/
 
@@ -24,6 +26,7 @@ In the src/ folder you put your .java files
 Still in values you will also need the layout/ folder where you will put your activity_main.xml
 
 
+##Generating apk and aab
 
 With your android project ready you first run:
 mkdirFolders.sh
