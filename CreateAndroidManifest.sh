@@ -90,13 +90,14 @@ echo "Want to Add ADMOB? y or n"
 read admob
 
 
+#Colocar APPLICATION_ID.txt na pasta do projeto ao lado de build
 if [ $admob == "y" ]; then
 echo ""
 echo "Add your com.google.android.gms.ads.APPLICATION_ID"
-echo "in the file AndroidManifest/Part_Manifest/APPLICATION_ID.txt"
+echo "in the file Project_Folder/APPLICATION_ID.txt"
 echo "added ? y"
 read application_id
-my_application_id=$(cat AndroidManifest/Part_Manifest/APPLICATION_ID.txt)
+my_application_id=$(cat ../$FolderProject/APPLICATION_ID.txt)
 fi
 
 
